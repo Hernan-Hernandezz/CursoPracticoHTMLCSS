@@ -9,6 +9,7 @@ html {
 }
 
 body{
+  font-family: arial , sans-serif;
   height:100vh;
   font-size: 1.3rem;
   display: flex ;
@@ -51,6 +52,9 @@ li{
   align-items: center ;
 }
 
+.head--more p{
+  margin: 1rem;
+}
 .head--more__figure{
   width: 2.4rem;
   height: 2.4rem;
@@ -81,20 +85,15 @@ li{
   align-items: center;
 }
 
-/*.search--logo{*/
-  /*width:35%*/
-  
-/*}*/
-
-/*.search--logo img{*/
-  /*width:100%*/
-/*}*/
+.search span{
+  color: blue;
+}
 
 .search--form{
   height:4rem;
   display:flex ;
   align-items:center ;
-  width:60vw;
+  width:40vw;
  
   border:1px solid gray ;
   border-radius: 2rem;
@@ -135,15 +134,23 @@ li{
 }
 .footer{
   display: flex ;
+  flex-direction: column ;
   justify-content: space-evenly ;
   background-color: #EDEDED ;
   font-size: 1.4rem;
   text-transform: capitalize;
   color: gray;
 }
+.footer--ubicacion{
+  margin: 1rem;
+}
 .footer--info{
+  display: flex;
+  justify-content: space-evenly ;
+}
+.footer--info__uso{
   display: inline-flex;
 }
-.footer--politicas{
+.footer--info__politicas{
   display: inline-flex;
 }
