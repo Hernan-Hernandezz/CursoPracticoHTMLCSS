@@ -11,39 +11,47 @@
 
 <body>
   <header class="head">
-    <div>
-      <figure><img src="" alt=""></figure>
-      <p></p>
-      <p></p>
+    <div class="head--inicial">
+      <figure class="head--inicial__figure">
+        <img src="src/images/menuLineas.svg" alt=""></figure>
+      <p>todos</p>
+      <p>imágenes</p>
     </div>
-    <div>
+    <div class="head--more">
       <figure class="head--more__figure">
         <img src="src/images/menu.svg" alt="" />
       </figure>
       <figure class="head--perfil__logo"><img src="src/images/perfil.jpeg" alt=""></figure>
     </div>
   </header>
-  <main>
-    <section>
-      <figure>
-        
+  <main class="search">
+      <figure class="search--logo">
+        <img src="src/images/googleLogo.png" alt="">
       </figure>
-      <form action="" method="get" accept-charset="utf-8">
-        <input type="text" id=""/>
-        <button type="submit"></button>
-        <button></button>
+      <form class="search--form"action="" method="get" accept-charset="utf-8">
+        <figure class="search--form__lupa">
+          <img src="src/images/lupa.svg" alt="" />
+        </figure>
+        <input class="search--form__input"type="text" id=""/><br />
+        <figure class="search--form__microfono">
+          <img src="src/images/microfono.svg" alt="" />
+        </figure>
+        
       </form>
-      <p>Ofrecido por Google en:<span>English</span></p>
-    </section>
+      <div class="search--action">
+        <button type="submit">Buscar con Google</button>
+        <button type="submit">Me siento con suerte</button>
+      </div>
+      <p>Ofrecido por Google en: <span>English</span></p>
   </main>
-  <footer>
-    <ul>
+  <footer class="footer">
+    <ul class="footer--info">
       <li>sobre google</li>
       <li>publicidad</li>
       <li>negocios</li>
       <li>como funciona la busqueda</li>
     </ul>
-    <ul>
+    <ul class="footer--politicas">
       <li>privacidad</li>
       <li>condiciones</li>
       <li>preferencias</li>

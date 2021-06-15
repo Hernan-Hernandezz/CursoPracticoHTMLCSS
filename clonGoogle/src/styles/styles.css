@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -8,23 +9,52 @@ html {
 }
 
 body{
+  height:100vh;
   font-size: 1.3rem;
+  display: flex ;
+  flex-direction:column ;
+  justify-content: space-between;
 }
 
-li {
+li{
   list-style: none;
-  margin: 1rem
+  margin: 1rem;
 }
 
 .head {
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+.head--inicial{
+  display: flex ;
+  align-items: center ;
+}
+
+.head--inicial p{
+  margin:1rem;
+  text-transform: uppercase;
+  color:grey ;
+}
+.head--inicial__figure{
+  width: 2rem;
+  height:2rem;
+  margin: 1rem;
+}
+
+.head--inicial__figure img{
+  width: 100%;
+}
+.head--more{
+  display: flex ;
+  align-items: center ;
 }
 
 .head--more__figure{
   width: 2.4rem;
   height: 2.4rem;
+  margin: 1rem;
 }
 
 .head--more__figure img{
@@ -34,12 +64,71 @@ li {
 .head--perfil__logo{
   width: 3.2rem;
   height: 3.2rem;
+  margin: 1rem;
 }
 
 
 .head--perfil__logo img{
-  height: 120%;
-  width: 120%;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
+}
 
+.search{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+.search--logo{
+  width:35%
+  
+}
+
+.search--logo img{
+  width:100%
+}
+
+.search--form{
+  height:2rem;
+  display:flex ;
+  align-items:center ;
+  width:60vw;
+ 
+  border:1px solid gray ;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem
+}
+.search--form__lupa{
+  height:100%
+}
+.search--form__lupa img{
+  width:1rem
+}
+.search--form__microfono{
+  height:100%
+}
+.search--form__input{
+  width:84%;
+  height:100%;
+  border:0 ;
+}
+
+.search--action button{ 
+  background-color:#EDEDED;
+  padding: 1rem ;
+  border: 0;
+  border-radius:5px;
+}
+.footer{
+  display: flex ;
+  justify-content: space-evenly ;
+  background-color: #EDEDED ;
+}
+.footer--info{
+  display: inline-flex;
+}
+.footer--politicas{
+  display: inline-flex;
 }
