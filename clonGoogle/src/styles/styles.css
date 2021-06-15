@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+  font-size: 1.3rem;
+}
+
+li {
+  list-style: none;
+  margin: 1rem
+}
+
+.head {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.head--more__figure{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.head--more__figure img{
+  width: 90%;
+}
+
+.head--perfil__logo{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+
+.head--perfil__logo img{
+  height: 120%;
+  width: 120%;
+  border-radius: 50%;
+
+}
